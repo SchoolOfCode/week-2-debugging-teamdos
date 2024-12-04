@@ -1,0 +1,22 @@
+The code within `ticket-4/index.js` is meant to return a grade based on the value of `points` (as per the table below), but currently it doesn't. You and your team should fix the code so that the function returns the correct grade.
+
+| Function call           | Expected output |
+| ----------------------- | --------------- |
+| getGradeFromPoints(100) | "A"             |
+| getGradeFromPoints(90)  | "A"             |
+| getGradeFromPoints(70)  | "B"             |
+| getGradeFromPoints(50)  | "C"             |
+| getGradeFromPoints(40)  | "D"             |
+| getGradeFromPoints(39)  | "E"             |
+| getGradeFromPoints(0)   | "E"             |
+
+Running the file should also log the following to the console:
+
+> A should be A
+
+PLAN: 
+
+1. Check the syntax/structure of code (no typos) -- fixed problems, errors were mostly syntax errors
+2. Test the function and check output in devtools
+3. Follow the code per line and articulate what is happening explicitly to understand how the function works
+    - eg. check data types, return statements, if statement logic
