@@ -1,0 +1,16 @@
+Plan
+
+You and your team have been tasked with debugging a new shopping list application (in the `ticket-1` folder). Despite the CSS and JavaScript files, two issues exist:
+
+- Page is unstyled - the "Add" button should be green.
+- Page is not interactive - clicking "Add" does nothing, even though JavaScript handles interactivity.
+
+Your task is to investigate and fix the bugs so:
+
+- Page styling works properly.
+- Page becomes fully interactive (adding items to list works).
+
+1. Use devtools to check for error message. No error message in console for css.
+2. CSS error: check the link between css and html - there was no link, we created a link
+              check the css code for typos/structural issues, check the logic/how the css code is written and works.
+3. Look at the js link on html. Failed to load resource: net::ERR_FILE_NOT_FOUND scripts.js:1 
