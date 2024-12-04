@@ -24,3 +24,4 @@ function countNumberOfNinesInNumber(number) {
 // and this meant that the function 
 // no longer accepted a string, or a number
 // 2. Turn the input into a string
+
